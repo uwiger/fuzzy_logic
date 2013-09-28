@@ -1,0 +1,12 @@
+{application, fuzzy_logic,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { fuzzy_logic_app, []}},
+  {env, []}
+ ]}.
